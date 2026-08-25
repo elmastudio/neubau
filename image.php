@@ -9,6 +9,7 @@
 
 // Retrieve attachment metadata.
 $metadata = wp_get_attachment_metadata();
+/* __php8 */ $image_size = isset( $image_size ) ? $image_size : 'large';
 
 get_header();
 ?>
